@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+}
+
+body {
+  padding: 0;
+  /* background-color: white; */
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  margin: 0.4rem;
+}
+
+.row_h10 {
+  margin: 20px 180px 20px 180px; /* top right bottom left */
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.textbox {
+  font-size: 2em;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#search {
+  width: 30%;
+  height: 2rem;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.button1 {
+  font-size: 18px;
+  margin-left: 20rem;
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.button2 {
+  margin-left: 20px;
+  font-size: large;
+  width: 150px;
+  height: 35px;
+  border-radius: 12px;
+  border-width: 1px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.row_h60 {
+  display: flex;
+  justify-content: space-between;
+  background-color: lemonchiffon;
+  height: 70vh;
+  width: 100vw;
+}
+
+.text_middle {
+  margin: 200px 200px 0px 200px;
+}
+
+.img_middle {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 210px 0px 0px;
+}
+
+.textbox_middle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.textbox_intro {
+  margin: 20px 0px 0px 0px;
+}
+
+.image1 {
+  width: 300px;
+}
+
+.button3 {
+  height: 8vh;
+  margin: 20px;
+  font-size: large;
+  border-style: none;
+  cursor: pointer;
+}
+
+.row_h30 {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 100px 30px 100px;
+}
+
+.textbox_bottom_famous {
+  text-decoration: underline;
+}
+
+.row_end {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 20vh;
+  /* margin: 50px 180px 0px 0px; */
+  background-color: lightgray;
+}
+
+.textbox_bottom2 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 40px 180px 0px 0px;
+}
+
+.button2:hover {
+  background-color: lightsalmon;
+}
+
+#search:focus {
+  background-color: linen;
+}
